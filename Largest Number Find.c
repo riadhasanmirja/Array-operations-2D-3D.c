@@ -5,7 +5,8 @@ int main()
           int max = a[0],i;
 
           for(i=1;i<7;i++)
-          {
+          { 
+                    if(a[i] > max)
                     max = a[i];
           }
 
